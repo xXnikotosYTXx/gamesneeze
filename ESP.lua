@@ -1,6 +1,6 @@
 getgenv().ESP = {
     Main = {
-        Enabled = true,
+        Enabled = false,
         Name = {
             Enabled = false,
             Color = Color3.fromRGB(255, 255, 255),
