@@ -7,7 +7,6 @@ getgenv().ESP = {
         },
         Box = {
             Enabled = false,
-            BoxFill = false,
             BoxColor = Color3.fromRGB(75, 175, 175),
             BoxFillColor = Color3.fromRGB(100, 75, 175),
         },
