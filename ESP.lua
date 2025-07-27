@@ -7,6 +7,7 @@ getgenv().ESP = {
         },
         Box = {
             Enabled = false,
+            FillEnabled = false,
             BoxColor = Color3.fromRGB(75, 175, 175),
             BoxFillColor = Color3.fromRGB(100, 75, 175),
         },
@@ -655,6 +656,7 @@ do -- // Visuals
                                         SetRenderProperty(Renders.BoxOutline, "Visible", true)
                                         SetRenderProperty(Renders.BoxOutline, "Transparency", BoxTransparency1)
                                         -- Fill
+                                        if ESP.Main.Box.FillEnabled then
                                         SetRenderProperty(Renders.BoxFill, "Size", BoxSize)
                                         SetRenderProperty(Renders.BoxFill, "Position", BoxPosition)
                                         SetRenderProperty(Renders.BoxFill, "Visible", true)
