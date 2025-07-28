@@ -28,10 +28,7 @@ getgenv().ESP = {
         AutomaticColor = true,
         Type = "AlwaysOnTop", --// "AlwaysOnTop", "Occluded"
     },
-    Checks = {
-        TeamCheck = true, -- если true, союзники игнорируются
-        UseTeamColor = true, -- если true и TeamCheck выключен, союзники рисуются другим цветом
-        
+    Checks = {     
         WallCheck = false,
         VisibleCheck = false,
         ForceField = false,
